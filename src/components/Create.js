@@ -36,7 +36,8 @@ let res={};
       if(res.data.message==='business is already exist')
       {
           window.alert(res.data.message);
-          setEmail('');   
+          setEmail(''); 
+        setStatus(false) 
       }
       else{
         window.alert(res.data.message);
@@ -45,6 +46,7 @@ let res={};
         setBusiness('');
         setPinCode('');
         setState('');
+        setStatus(true) 
       }
       
       
