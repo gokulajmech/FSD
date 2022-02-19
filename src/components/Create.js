@@ -13,7 +13,7 @@ function Create() {
 useEffect(()=>{
     statusHandler();
 },[]);
-let statusHandler=()=>{setStatus(false)}
+let statusHandler=()=>{setStatus(true)}
 
 let res={};
  let getData=async()=>{
